@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,46 +10,55 @@
 <body class="bg-gray-900 text-white">
     <div class="container mx-auto p-8">
         <header class="text-center mb-8">
-            <h1 class="text-4xl font-bold mb-2">Nexar (NXR)</h1>
-            <p class="text-lg">A revolução digital em criptomoedas</p>
+            <h1 class="text-5xl font-bold mb-2">Nexar (NXR)</h1>
+            <p class="text-xl">A revolução digital em criptomoedas</p>
+           <img src="./Nexar_Logo_Optimized.png" alt="Nexar Logo" class="mx-auto mt-4">
+
         </header>
 
-        <section class="mb-10">
-            <h2 class="text-2xl font-semibold mb-4">Links Oficiais</h2>
-            <ul class="list-disc pl-5">
-                <li><a href="https://etherscan.io/token/0x94B496b9de69Fe9cB631A30580Fcb1EA658d36Ca" class="text-blue-400">Contrato no Etherscan</a></li>
-                <li><a href="https://github.com/Edivaldo453/Nexar-Whitepaper/raw/main/Whitpaper%20Nexar.pdf" class="text-blue-400">Whitepaper PDF</a></li>
-                <li><a href="https://etherscan.io/token/0x94B496b9de69Fe9cB631A30580Fcb1EA658d36Ca#balances" class="text-blue-400">Lista de Holders</a></li>
-            </ul>
-        </section>
+```
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Links Oficiais</h2>
+        <ul class="list-disc pl-5">
+            <li><a href="https://etherscan.io/token/0x94B496b9de69Fe9cB631A30580Fcb1EA658d36Ca" class="text-blue-400">Contrato no Etherscan</a></li>
+            <li><a href="https://github.com/Mathias761rgb/Nexar-Whitepaper/raw/main/Whitpaper%20Nexar.pdf" class="text-blue-400">Whitepaper PDF</a></li>
+            <li><a href="https://etherscan.io/token/0x94B496b9de69Fe9cB631A30580Fcb1EA658d36Ca#balances" class="text-blue-400">Lista de Holders</a></li>
+        </ul>
+    </section>
 
-        <section class="mb-10">
-            <h2 class="text-2xl font-semibold mb-4">Tokenomics</h2>
-            <ul class="list-disc pl-5">
-                <li>Fundador: 100.000.000 (50%)</li>
-                <li>Liquidez: 40.000.000 (20%)</li>
-                <li>Presale: 35.000.000 (17,5%)</li>
-                <li>Marketing: 10.000.000 (5%)</li>
-                <li>Equipe: 10.000.000 (5%)</li>
-                <li>Reserva: 5.000.000 (2,5%)</li>
-            </ul>
-        </section>
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Tokenomics</h2>
+        <ul class="list-disc pl-5">
+            <li>Fundador: 100.000.000 (50%)</li>
+            <li>Liquidez: 40.000.000 (20%)</li>
+            <li>Presale: 35.000.000 (17,5%)</li>
+            <li>Marketing: 10.000.000 (5%)</li>
+            <li>Equipe: 10.000.000 (5%)</li>
+            <li>Reserva: 5.000.000 (2,5%)</li>
+        </ul>
+    </section>
 
-        <section class="mb-10">
-            <h2 class="text-2xl font-semibold mb-4">Negociar na Uniswap</h2>
-            <a href="https://app.uniswap.org/#/swap?outputCurrency=0x94B496b9de69Fe9cB631A30580Fcb1EA658d36Ca" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Comprar NXR na Uniswap
-            </a>
-        </section>
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Negociar na Uniswap</h2>
+        <a href="https://app.uniswap.org/#/swap?outputCurrency=0x94B496b9de69Fe9cB631A30580Fcb1EA658d36Ca" target="_blank" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-bold py-2 px-4 rounded">
+            Comprar NXR na Uniswap
+        </a>
+    </section>
 
-        <section class="mb-10">
-            <h2 class="text-2xl font-semibold mb-4">Contato</h2>
-            <p>Email: <a href="mailto:nexarnxr25@gmail.com" class="text-blue-400">nexarnxr25@gmail.com</a></p>
-        </section>
+    <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Contato</h2>
+        <p>Email: <a href="mailto:nexarnxr25@gmail.com" class="text-blue-400">nexarnxr25@gmail.com</a></p>
+    </section>
 
-        <footer class="text-center mt-10">
-            <p>© 2025 Nexar. Todos os direitos reservados.</p>
-        </footer>
-    </div>
+    <footer class="text-center mt-10">
+        <p>© <span id="year"></span> Nexar. Todos os direitos reservados.</p>
+    </footer>
+</div>
+
+<script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+</script>
+```
+
 </body>
 </html>
