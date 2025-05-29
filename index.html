@@ -2,75 +2,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nexar (NXR) - Revolução em Criptomoedas</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexar (NXR) - Criptomoeda Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0f172a;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background: #1e293b;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            color: #38bdf8;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .button {
+            background-color: #22d3ee;
+            color: #0f172a;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        section {
+            margin-top: 40px;
+        }
+
+        footer {
+            background: #1e293b;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 60px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body>
 
-  <div class="container mx-auto px-4 py-10">
-    <header class="text-center mb-10">
-      <img src="nexar_logo_512.png" alt="Logo Nexar" class="mx-auto h-28 mb-4">
-      <h1 class="text-4xl font-bold text-blue-400">Nexar (NXR)</h1>
-      <p class="text-lg text-gray-300 mt-2">A revolução digital em criptomoedas</p>
-    </header>
+<header>
+    <img src="logo.png" alt="Logo da Nexar (NXR)">
+    <div style="font-size: 24px; font-weight: bold;">Nexar (NXR)</div>
+</header>
 
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-400">📜 Sobre o Projeto</h2>
-      <p class="text-gray-200">
-        Nexar (NXR) é uma criptomoeda ERC-20 criada para impulsionar a inovação financeira com liquidez estratégica, governança descentralizada e foco em acessibilidade digital.
-      </p>
+<div class="container">
+    <div class="hero">
+        <h1>Conectando o Futuro das Finanças</h1>
+        <p>NXR é uma criptomoeda ERC-20 criada para proporcionar inovação, acessibilidade e transparência no mercado digital.</p>
+        <a href="https://app.uniswap.org/swap?outputCurrency=0x9844E265c3b37B7dc8c512B5A77a521e45494ac2&chain=ethereum" class="button" target="_blank">Comprar NXR</a>
+        <a href="https://github.com/Mathias761rgb/Whitepaper-nexar/raw/main/whitepaper/Nexar_Whitepaper_Atualizado_2025_Com_Distribuicao.pdf" class="button" target="_blank">Ver Whitepaper</a>
+    </div>
+
+    <section>
+        <h2>📜 Sobre a Nexar</h2>
+        <p>Nexar é um projeto focado em descentralização, governança comunitária e utilidade real para pagamentos, staking e integração com o mundo cripto.</p>
     </section>
 
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-400">📊 Tokenomics</h2>
-      <ul class="list-disc list-inside text-gray-200">
-        <li>🔸 Suprimento Total: 600.000.000 NXR</li>
-        <li>🔸 Fundador: 200.000.000</li>
-        <li>🔸 Liquidez: 100.000.000</li>
-        <li>🔸 Pré-venda: 150.000.000</li>
-        <li>🔸 Marketing: 60.000.000</li>
-        <li>🔸 Equipe: 60.000.000</li>
-        <li>🔸 Reserva: 30.000.000</li>
-      </ul>
+    <section>
+        <h2>📊 Distribuição de Tokens</h2>
+        <ul>
+            <li>🔹 Fundador: 300.000.000 (50%)</li>
+            <li>🔹 Estratégia: 140.000.000 (23,33%)</li>
+            <li>🔹 Desenvolvimento: 100.000.000 (16,67%)</li>
+            <li>🔹 Reserva: 60.000.000 (10%)</li>
+        </ul>
     </section>
 
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-400">🔗 Links Oficiais</h2>
-      <ul class="list-disc list-inside text-blue-400">
-        <li><a href="https://etherscan.io/token/0x9844E265c3b37B7dc8c512B5A77a521e45494ac2" target="_blank">Contrato no Etherscan</a></li>
-        <li><a href="https://t.me/NexarNXR" target="_blank">Telegram Oficial</a></li>
-        <li><a href="https://twitter.com/NexarNxr" target="_blank">Twitter Oficial</a></li>
-        <li><a href="https://github.com/Mathias761rgb/Whitepaper-nexar" target="_blank">Repositório GitHub</a></li>
-      </ul>
+    <section>
+        <h2>🔗 Links Oficiais</h2>
+        <ul>
+            <li><a href="https://etherscan.io/token/0x9844E265c3b37B7dc8c512B5A77a521e45494ac2" target="_blank">Contrato no Etherscan</a></li>
+            <li><a href="https://github.com/Mathias761rgb/Whitepaper-nexar" target="_blank">Repositório Whitepaper</a></li>
+            <li><a href="https://x.com/NexarNxr" target="_blank">Twitter Oficial</a></li>
+            <li><a href="https://t.me/NexarNXR" target="_blank">Telegram Oficial</a></li>
+        </ul>
     </section>
+</div>
 
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-400">🚀 Comprar na Uniswap</h2>
-      <a href="https://app.uniswap.org/#/swap?outputCurrency=0x9844E265c3b37B7dc8c512B5A77a521e45494ac2"
-         target="_blank"
-         class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded">
-        Comprar NXR
-      </a>
-    </section>
+<footer>
+    © 2025 Nexar – Todos os direitos reservados. | Contato: <a href="mailto:nexarnxr25@gmail.com">nexarnxr25@gmail.com</a>
+</footer>
 
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4 text-yellow-400">📥 Whitepaper</h2>
-      <a href="https://github.com/Mathias761rgb/Whitepaper-nexar/raw/main/Nexar_Whitepaper_Atualizado_2025.pdf"
-         target="_blank"
-         class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded">
-        Baixar Whitepaper
-      </a>
-    </section>
-
-    <footer class="text-center text-gray-400 mt-20">
-      <p>&copy; <span id="ano"></span> Nexar (NXR) – Todos os direitos reservados.</p>
-    </footer>
-  </div>
-
-  <script>
-    document.getElementById('ano').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
